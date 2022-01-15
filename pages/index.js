@@ -1,8 +1,13 @@
+import styled from 'styled-components';
 
 export default function Home() {
   return (
-    <div className='bg-black'>
+    <Wrapper>
       <h1>How working tailwind CSS with styled-components</h1>
-    </div>
+    </Wrapper>
   )
 }
+
+const Wrapper = styled.div`
+flex: 1;
+`;
